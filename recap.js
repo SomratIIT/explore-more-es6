@@ -40,3 +40,7 @@ const student = {
 const keysall = Object.values(student);
 
 console.log(keysall);
+
+
+// for of used in array,string
+// for in used in object
