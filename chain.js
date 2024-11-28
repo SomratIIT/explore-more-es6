@@ -12,6 +12,7 @@ const products = {
 }
 // console.log(products.data[1].price);
 
+// Chain
 const user ={
     id:5001,
     name:'somrat',
