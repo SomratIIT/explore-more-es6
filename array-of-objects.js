@@ -29,3 +29,7 @@ const output6 = products.forEach(product=> console.log(product.id));
 const output7 = products.filter(prod=> prod.price>100000);
 console.log(...output7);
 
+// reduce
+
+const output8 = products.reduce((p,c)=> p + c.price ,0)
+console.log(output8);
